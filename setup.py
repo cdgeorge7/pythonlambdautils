@@ -7,7 +7,7 @@ import re
 
 from setuptools import setup
 
-__library__ = "python-lambda-utils"
+__library__ = "pythonlambdautils"
 __user__ = "https://github.com/cdgeorge7"
 
 
@@ -34,8 +34,8 @@ def find_version(*file_paths):
 
 
 setup(
-    name="python-lambda-utils",
-    version=find_version("python-lambda-utils", "__init__.py"),
+    name="pythonlambdautils",
+    version=find_version("pythonlambdautils", "__init__.py"),
     description=("Custom utils package for AWS Lambda"),
     long_description=LONG_DESCRIPTION,
     long_description_content_type="text/markdown",
@@ -44,7 +44,7 @@ setup(
     url=f"{__user__}/{__library__}.git",
     download_url=f"{__user__}/{__library__}.git",
     license="LICENSE",
-    packages=["python-lambda-utils"],
+    packages=["pythonlambdautils"],
     install_requires=[
         "typing_extensions; python_version >= '3.5'"
     ],  # don't know proper python version
