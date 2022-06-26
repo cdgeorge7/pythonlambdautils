@@ -46,7 +46,7 @@ setup(
     license="LICENSE",
     packages=["pythonlambdautils"],
     install_requires=[
-        "typing_extensions; python_version >= '3.5'"
+        "requests; python_version >= '3.5'"
     ],  # don't know proper python version
     classifiers=[
         "Programming Language :: Python :: 3",
